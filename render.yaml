@@ -4,7 +4,7 @@ services:
   rootDir: .
   name: agent-example
   runtime: docker       
-  plan: starter
+  plan: free
   envVars:
   - fromGroup: agent-example-env 
   region: virginia
