@@ -6,7 +6,7 @@ services:
   runtime: docker       
   plan: free
   envVars:
-  - fromGroup: agent-example-env 
+  - fromGroup: agent-example-env-group
   region: virginia
   # maxShutdownDelaySeconds: 300
   # scaling:
