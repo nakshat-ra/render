@@ -8,10 +8,10 @@ services:
   envVars:
   - fromGroup: agent-example-env 
   region: virginia
-  maxShutdownDelaySeconds: 300
-  scaling:
-    minInstances: 1
-    maxInstances: 4
-    targetCPUPercent: 60
-    targetMemoryPercent: 60
+  # maxShutdownDelaySeconds: 300
+  # scaling:
+  #   minInstances: 1
+  #   maxInstances: 4
+  #   targetCPUPercent: 60
+  #   targetMemoryPercent: 60
 version: "1"
