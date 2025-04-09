@@ -14,4 +14,6 @@ services:
   #   maxInstances: 4
   #   targetCPUPercent: 60
   #   targetMemoryPercent: 60
+  logDestinations:
+      - type: stdout
 version: "1"
